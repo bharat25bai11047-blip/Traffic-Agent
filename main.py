@@ -13,7 +13,6 @@ green_time = 30
 # Learning memory
 history = []
 
-
 def adjust_signal(vehicles, current_time):
     global green_time
 
