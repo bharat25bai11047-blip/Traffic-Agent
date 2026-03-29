@@ -24,7 +24,6 @@ def train_model():
 
     model = LinearRegression()
     model.fit(X, y)
-
     return model
 
 def predict_traffic(model, time, day, weather):
